@@ -1,0 +1,5 @@
+Flask
+pytest
+flask-inputs
+jsonschema
+gunicorn

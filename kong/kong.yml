@@ -1,0 +1,13 @@
+ _format_version: "3.0"
+ _transform: true
+
+ services:
+ - host: my-app-01
+   name: myapp_svc
+   port: 8080
+   protocol: http
+   routes:
+   - name: myapp
+     paths:
+     - /myapp
+     strip_path: true
